@@ -1,4 +1,4 @@
-﻿using System;
+﻿/*using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -41,12 +41,12 @@ namespace Bookstore
         }
         public void RegisterUser()
         {
-            /* Console.WriteLine("Enter username:");
+            *//* Console.WriteLine("Enter username:");
              string username = Console.ReadLine();
              Console.WriteLine("Enter Password");
-             string password = Console.ReadLine();*/
+             string password = Console.ReadLine();*//*
             Console.Write("Enter your credentials (username:password): ");
-            /*    string credentials = username + ":" + password;*/
+            *//*    string credentials = username + ":" + password;*//*
             string credentials = Console.ReadLine();
 
 
@@ -77,7 +77,7 @@ namespace Bookstore
         }
         public void AddNewBook()
         {
-            /*File.Create(@"E:\login\book.txt");*/
+            *//*File.Create(@"E:\login\book.txt");*//*
             Console.WriteLine("Adding a new book:");
             Console.Write("Enter Book ID: ");
             string bookId = Console.ReadLine();
@@ -174,3 +174,4 @@ namespace Bookstore
 
 
 
+*/
